@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('checkout code'){
             steps {
-                    git credentialsid: 'pathelloworld',url: 'https://github.com/Riyouk/hello_python_app.git',branch : 'main'
+                    git credentialsId: 'pathelloworld',url: 'https://github.com/Riyouk/hello_python_app.git',branch : 'main'
             }
         }
 
