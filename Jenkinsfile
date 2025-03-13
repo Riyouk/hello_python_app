@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stages('install Dependencies') {
+        stage('install Dependencies') {
             steps{
                 bat ''' 
                     python -m venv venv
