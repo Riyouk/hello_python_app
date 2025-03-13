@@ -14,7 +14,7 @@ pipeline {
                     python -m venv venv
                     call venv\\Scripts\\activate
                     pip install --upgrade pip
-                    pip install -r requierment.txt
+                    pip install -r requirement.txt
                 '''
             }
         }
