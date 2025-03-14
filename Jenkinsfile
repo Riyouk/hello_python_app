@@ -15,7 +15,7 @@ pipeline {
                     call venv\\Scripts\\activate
                     pip install --upgrade pip
                     pip install -r requirement.txt
-                '''
+                    '''
             }
         }
 
@@ -36,7 +36,7 @@ pipeline {
                 bat '''
                     call nenv\\Scripts\\activate
                     python hello_world.py
-                '''
+                    '''
             
             }
         }
